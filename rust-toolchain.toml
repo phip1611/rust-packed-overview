@@ -1,0 +1,8 @@
+# With this file, another toolchain to the currently selected one will be used.
+# https://rust-lang.github.io/rustup/overrides.html
+
+# Pin the version, because somewhen in the future misaligned references will become a hard error.
+
+[toolchain]
+channel = "1.57.0"
+
